@@ -24,8 +24,11 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-Here is the image of the created from the video README file: ![alt text](./assets/Greenshot%202023-06-21%2020.34.47.png)
+Here is the image of the created from the video README file:
+
+ ![alt text](./assets/Greenshot%202023-06-21%2020.34.47.png)
+
 
 Video with demostration of program:
-![Watch the video](./assets/w_9_README.mp4)
+https://drive.google.com/file/d/1TChHUqkCFByNWvhN1z4ocS7VVPF-Iwg0/view?usp=sharing
     
