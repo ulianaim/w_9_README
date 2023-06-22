@@ -16,7 +16,10 @@ ${data.usage}
 ${data.credits}
 
 ## License
-${data.license}`;
+${data.license}
+
+## If you have any question you can find me in Github or contact me by email:
+${data.questions}`;
 
 }
 
@@ -43,9 +46,15 @@ inquirer
       message: 'With whom did you collaborate?',
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
       message: 'What license does your ptoject has?',
+      choices: ['MIT', 'Apache', 'None'],
+    },
+    {
+      type: 'input',
+      name: 'questions',
+      message: ['Please enter your GitHub username and email address'],
     },
   ])
   .then((answers) => {
